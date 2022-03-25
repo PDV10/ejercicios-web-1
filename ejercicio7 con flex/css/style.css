@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    background-color: rgb(255, 115, 0);
+    height: 20vh;
+}
+
+.contenedorContenido{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+}
+
+article{
+    background-color: rgb(241, 241, 90);
+    height: 75vh;
+}
+
+aside{
+    background-color: rgb(150, 30, 150);
+    height: 75vh;
+}
+
+footer{
+    background-color: rgb(57, 118, 168);
+    height: 5vh;
+}
+
+@media only screen and (min-width: 480px){
+    .contenedorContenido{
+        flex-direction: row;
+        flex: 1;
+    }
+
+    article{
+        flex: 3;
+    }
+
+    aside{
+        flex: 1;
+    }
+    
+}

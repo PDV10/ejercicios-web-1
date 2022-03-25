@@ -1,0 +1,9 @@
+div{
+    visibility: hidden;
+}
+
+.cambiar{
+    visibility: visible;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+}

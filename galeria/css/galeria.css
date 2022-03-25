@@ -1,0 +1,13 @@
+img{
+    width: 100px;
+    height: 80px;
+}
+
+img:hover{
+    border: 2px solid black;
+}
+
+.cambios{
+    width: 600px;
+    height: 500px;
+}
